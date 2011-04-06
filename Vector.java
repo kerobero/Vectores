@@ -20,7 +20,7 @@ public class Vector {
     }
     
     /**
-     * Constructor con parametros recibe un entero como tamaño del vector.
+     * Constructor con parametros recibe un entero como tamaÃ±o del vector.
      */
     
     public Vector(int max){
@@ -29,7 +29,7 @@ public class Vector {
     }
     
     /**
-     * Metodo que devuelve falso o verdadero si el vector esta vacío.
+     * Metodo que devuelve falso o verdadero si el vector esta vacÃ­o.
      */
     
     public boolean VectorVacio(){
@@ -142,7 +142,7 @@ public class Vector {
         try{
             int temp = Buscar(num);
             if (temp!=-1)
-                vector[temp]= Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número por el que reemplazar"));
+                vector[temp]= Integer.parseInt(JOptionPane.showInputDialog("Ingrese el nÃºmero por el que reemplazar"));
         }catch(Exception e){}        
     }
 }
